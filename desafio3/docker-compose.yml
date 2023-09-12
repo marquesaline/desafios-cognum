@@ -1,0 +1,19 @@
+version: '3'
+services:
+  app:
+    image: node:14
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: development
+    command: "npm run start"
+    depends_on:
+      - mongodb
+
+  mongodb:
+    build:
+      context: .
+      dockerfile: Dockerfile-mongodb
