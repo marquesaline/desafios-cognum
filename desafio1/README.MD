@@ -13,7 +13,7 @@ Certifique-se de ter o Node.js e o npm (ou yarn) instalados em sua máquina ante
 Clone este repositório para a sua máquina local usando o seguinte comando:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/marquesaline/desafios-cognum.git
 ```
 
 ### Passo 2: Entrar na Pasta do Projeto
