@@ -1,4 +1,3 @@
-// src/controllers/EmployeeController.ts
 
 import { Request, Response } from 'express';
 import Employee, { IEmployee } from '../models/employee.model';
@@ -100,9 +99,9 @@ class EmployeeController {
       }));
 
       const insertedEmployees = await Employee.insertMany(employees);
-
       res.status(201).json(insertedEmployees);
     } catch (error) {
+      console.log(error);
       res.status(500).json({ error: 'Failed to populate employees' });
     }
   }
