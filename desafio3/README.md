@@ -235,3 +235,11 @@ Exemplo de resposta:
   "message": "Employee deleted successfully"
 }
 ```
+
+## Executando Testes
+
+Para executar os testes deste projeto, certifique-se de que você tenha instalado todas as dependências necessárias e depois você pode executar os testes usando o seguinte comando:
+
+``` bash
+npm run test
+```
